@@ -1,0 +1,721 @@
+body{
+    background-color: rgb(241, 244, 247);
+}
+.fdiv{
+    background-color: blue;
+    height: 70px;
+    width: 100%;
+}
+@media only screen and (max-width: 600px){
+    .fdiv{
+        background-color: blue;
+        height: 150px;
+        width: 100%;
+    }
+    .fline{
+        display: block;
+        color: white;
+        margin-top: -2px;
+        font-size: 20px; 
+        text-align: center;
+    }
+    .fbtn{
+        display: block;
+        margin-left: 40px;
+    }
+    .fbtnn{
+        height: 30px;
+        display: inline-block;
+        margin-top: -7px;
+    }
+    .saylani{
+        width: 200px;
+        height:50px;
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+    .sbtn1{
+        margin-top: -20px;
+        /* margin-left: 300px; */
+        position: absolute;
+        height:30px;
+        display: block;
+    }
+    .sbtn2{
+       height:30px;
+       position: absolute;
+       margin-left: -220px;
+       margin-top:44px ;
+       
+    } 
+    
+    .sbtn3{ height:30px;
+        position: absolute;
+        margin-left: -170px;
+        margin-top:44px ;
+    
+    }
+    
+    .sbtn4{
+        height:30px;
+        position: absolute;
+        margin-left: -60px;
+        margin-top:44px ;
+    }
+    .sbtn5{
+        height:30px;
+        position: absolute;
+        /* margin-left: 700px; */
+        margin-top:10px ;
+        display: block;
+    }
+    
+    .sbtn6{
+        height:30px;
+        position: absolute;
+        margin-left: -220px;
+        margin-top:75px ;
+    }
+    .sbtn7{
+        height:30px;
+        position: absolute;
+        margin-left: -170px;
+        margin-top:75px ;
+    }
+    
+    .btn{
+        background-color: white;
+        border: white;
+        border-radius:20%;
+    }
+    .btn:hover{
+        background-color: green;
+        color: white;
+    }
+    .sdiv{
+        background-color:white;
+        height: 110px;
+        width: 100%;
+        
+    }
+    .patient{
+        width: 100%;
+        height:150px;
+    }
+    .linediv{
+        background-color: blue;
+        width: 80%;
+        height: 20px;  
+    }
+    
+    .intro{
+        color:green;
+        text-align: center;
+        font-size: 30px;
+    }
+    .lline{
+        margin-left: -80px;
+    }
+    .saylogo{
+        width: 40px;
+        height:40px;
+        position: absolute;
+        margin-top: -20px;
+        margin-left: -70px;
+    }
+    .line{
+        position: absolute;
+        margin-left: -150px;
+    }
+    .para{
+        margin: 0 auto;
+        color: gray;
+        width: 300px;   
+    }
+    .first{
+        margin-top: -70px;
+    }
+    .num{
+        width: 100%;
+        height:100px;
+        margin-top: 20px;
+    }
+    .doing{
+        width: 100px;
+        height: 50px;
+        margin-top: 30px;
+        margin-left: 25px;
+        
+    }
+    .box1{
+        width: 150px;
+        height: 100px;
+        background-color: white;
+        margin-top: -60px;
+        margin-left: 20px;
+        box-shadow: 5px 5px 20px 5px #888888;
+        
+    }
+    
+    .box2{
+        width: 150px;
+        height: 100px;
+        background-color: white;
+        margin-top: -100px;
+        margin-left: 200px;
+        box-shadow: 5px 5px 20px 5px #888888;
+    }
+    .box3{
+        width: 150px;
+        height: 100px;
+        background-color: white;
+        margin-top: 10px;
+        margin-left: 20px;
+        box-shadow: 5px 5px 20px 5px #888888;
+    }
+    .box4{
+        width: 150px;
+        height: 100px;
+        background-color: white;
+        margin-top: -115px;
+        margin-left: 200px;
+        box-shadow: 5px 5px 20px 5px #888888;
+    }
+    
+    .box5{
+        width: 150px;
+        height: 100px;;
+        background-color: white;
+        margin-top: 10px;
+        margin-left: 20px;
+        box-shadow: 5px 5px 20px 5px #888888;
+    }
+    .box6{
+        width: 150px;
+        height: 100px;
+        background-color: white;
+        margin-top: -97px;
+        margin-left: 200px;
+        box-shadow: 5px 5px 20px 5px #888888;
+    }
+    .nextdiv{
+        width: 100%;
+        height:350px;
+        background-color: white;
+        margin-top: 50px;
+    }
+    .next{
+        font-size: 25px;
+        color: green;
+        display: inline-block;
+       margin-top: 20px;
+    }
+    .up{
+        margin-left: 200px;
+        /* margin-top: -10px; */
+        display: none;
+        
+    }
+    .next1{
+        width: 150px;
+        height: 50px;
+        background-color:rgb(241, 244, 247) ;
+        margin-left: 10px;
+        border:1px solid rgb(216, 218, 221);
+        
+    }
+    .next2{
+        width: 150px;
+        height: 50px;
+        background-color:rgb(241, 244, 247) ;
+        margin-left: 10px;
+        margin-top: 10px;
+        border:1px solid rgb(216, 218, 221);
+    }
+    
+    .next3{
+        width: 150px;
+        height: 50px;
+        background-color:rgb(241, 244, 247);
+        margin-left: 10px;
+        border:1px solid rgb(216, 218, 221);
+        margin-top: -10px;
+    }
+    .next4{
+        width: 150px;
+        height: 50px;
+        background-color:rgb(241, 244, 247);
+        margin-left: 10px;
+        border:1px solid rgb(216, 218, 221);
+        margin-top: 10px;
+    }
+    .this{
+        color: blue;
+        margin-left: 50px;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    .thisimg{
+        width: 50px;
+        height: 50px;
+        margin-left: 0px;
+        /* margin-top: 5px; */
+        position: absolute;
+    }
+    .mission{
+        margin-left: 10px;
+    }
+    .box{
+        width: 120px;
+        height: 200px;
+        margin-left: 200px;
+        background-color:rgb(241, 244, 247);
+        margin-top: -220px;
+        border:1px solid rgb(216, 218, 221);
+        display: none;
+    }
+    .image{
+        width: 80px;
+        height: 50px;
+        margin-top: -100px;
+        }
+    
+    .last{
+            width: 100%;
+            height:300px;
+            background-color:rgb(39, 39, 39);
+            margin-top: 50px;
+        }
+    .lastpara{
+            color: rgb(241, 244, 247);
+            margin-top: 10px;
+            margin-left: 10px;
+            position: absolute;
+        }
+        
+    .lastimg{
+                border-radius: 50%;
+                width: 20px;
+                height: 20px;
+        }
+    .cell{
+            color: white;
+            position: absolute;
+            margin-left: 50px;
+            margin-top: 70px;
+        }
+        .lastimg2{
+            margin-top: 80px;
+            margin-left: 10px;
+        }
+        .lastpara2{
+            margin-left: 50px;
+            color: white;
+            margin-top: -20px;
+        }
+        .lastimg3{
+            margin-top: -20px;
+            margin-left: 10px;
+            
+        }
+        .lastpara3{
+            margin-left: 50px;
+            color: white;
+            margin-top: -20px;
+        }
+        .connect{
+            color: white;
+            font-size: 20px;
+            margin-left: 900px;
+            margin-top: -220px;
+        }
+        .lastpic{
+            margin-left:850px ;
+            
+        }
+        .extraa{
+            display: none;
+        }
+        
+        .top{
+            display: none;
+        }
+    
+}
+
+
+.fblogo{
+    width: 30px;
+    height:30px;
+    margin-top: 15px ;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+.twtrlogo{
+    width: 30px;
+    height:30px;
+    margin-top: 15px ;
+    margin-left: 20px;
+    border-radius: 50%;  
+}
+
+.instalogo{
+    width: 30px;
+    height:30px;
+    margin-top: 15px ;
+    margin-left: 20px;
+    border-radius: 50%;  
+}
+.ytlogo{
+    width: 30px;
+    height:30px;
+    margin-top: 15px ;
+    margin-left: 20px;
+    border-radius: 50%; 
+}
+
+.walogo{
+    width: 30px;
+    height:30px;
+    margin-top: 15px ;
+    margin-left: 20px;
+    border-radius: 50%; 
+}
+@media only screen and (min-width: 600px){
+.fline{
+    display: inline;
+    color: white;
+    margin-left: 50px;
+    font-size: 20px; 
+}
+
+.fbtn{
+    margin-left: 100px; 
+}
+.fbtnn{
+    height: 30px;
+}
+
+.sdiv{
+    background-color:white;
+    height: 90px;
+    width: 100%;
+    
+}
+
+.saylani{
+    width: 200px;
+    height:70px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.sbtn1{
+    margin-top: 30px;
+    margin-left: 300px;
+    position: absolute;
+    height:30px;
+    
+}
+.sbtn2{
+   height:30px;
+   position: absolute;
+   margin-left: 370px;
+   margin-top:30px ;
+   
+} 
+
+.sbtn3{ height:30px;
+    position: absolute;
+    margin-left: 440px;
+    margin-top:30px ;
+
+}
+
+.sbtn4{
+    height:30px;
+    position: absolute;
+    margin-left: 575px;
+    margin-top:30px ;
+}
+.sbtn5{
+    height:30px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top:30px ;
+}
+
+.sbtn6{
+    height:30px;
+    position: absolute;
+    margin-left: 770px;
+    margin-top:30px ;
+}
+.sbtn7{
+    height:30px;
+    position: absolute;
+    margin-left: 840px;
+    margin-top:30px ;
+}
+
+.btn{
+    background-color: white;
+    border: white;
+    border-radius:20%;
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+
+.patient{
+    width: 100%;
+    height:300px;
+}
+.linediv{
+    background-color: blue;
+    width: 80%;
+    height: 20px;  
+}
+.intro{
+    color:green;
+    text-align: center;
+    font-size: 50px;
+}
+.saylogo{
+    width: 40px;
+    height:40px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -70px;
+}
+.line{
+    position: absolute;
+    margin-left: -150px;
+}
+.lline{
+    margin-left: 420px;
+}
+.para{
+    margin: 0 auto;
+    color: gray;
+    width: 950px;   
+}
+.first{
+    margin-top: -70px;
+}
+.num{
+    width: 100%;
+    height:250px;
+    margin-top: 20px;
+}
+.box1{
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    margin-top: -30px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 20px 5px #888888;
+    
+}
+
+.box2{
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    margin-top: -150px;
+    margin-left: 500px;
+    box-shadow: 5px 5px 20px 5px #888888;
+}
+.box3{
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    margin-top: -150px;
+    margin-left: 900px;
+    box-shadow: 5px 5px 20px 5px #888888;
+}
+.box4{
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 20px 5px #888888;
+}
+
+.box5{
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    margin-top:-150px;
+    margin-left: 500px;
+    box-shadow: 5px 5px 20px 5px #888888;
+}
+.box6{
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    margin-top:-150px;
+    margin-left: 900px;
+    box-shadow: 5px 5px 20px 5px #888888;
+}
+
+.doing{
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 75px;
+    
+}
+.nextdiv{
+    width: 100%;
+    height:300px;
+    background-color: white;
+    margin-top: 50px;
+}
+.next{
+    font-size: 30px;
+    color: green;
+    display: inline-block;
+   margin-top: 20px;
+}
+.up{
+    margin-left: 280px;
+}
+.next1{
+    width: 350px;
+    height: 70px;
+    background-color:rgb(241, 244, 247) ;
+    margin-left: 80px;
+    border:1px solid rgb(216, 218, 221);
+    
+}
+.next2{
+    width: 350px;
+    height: 70px;
+    background-color:rgb(241, 244, 247) ;
+    margin-left: 520px;
+    margin-top: -70px;
+    border:1px solid rgb(216, 218, 221);
+}
+
+.next3{
+    width: 350px;
+    height: 70px;
+    background-color:rgb(241, 244, 247);
+    margin-left: 80px;
+    border:1px solid rgb(216, 218, 221);
+}
+.next4{
+    width: 350px;
+    height: 70px;
+    background-color:rgb(241, 244, 247);
+    margin-left: 520px;
+    margin-top: -70px;
+    border:1px solid rgb(216, 218, 221);
+}
+
+.this{
+    color: blue;
+    margin-left: 90px;
+    font-size: 25px;
+    margin-top: 25px;
+}
+.thisimg{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
+    position: absolute;
+}
+.mission{
+    margin-left: 180px;
+}
+.box{
+    width: 350px;
+    height: 160px;
+    margin-left: 950px;
+    background-color:rgb(241, 244, 247);
+    margin-top: -160px;
+    border:1px solid rgb(216, 218, 221);
+}
+
+.image{
+width: 200px;
+height: 150px;
+margin-top: -50px;
+}
+.img1{
+    margin-left: 300px;
+}
+.last{
+    width: 100%;
+    height:300px;
+    background-color:rgb(39, 39, 39);
+    margin-top: 50px;
+}
+.lastpara{
+    color: rgb(241, 244, 247);
+    margin-top: 50px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.lastimg{
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+}
+.cell{
+    color: white;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 110px;
+}
+.lastimg2{
+    margin-top: 130px;
+    margin-left: 50px;
+}
+.lastpara2{
+    margin-left: 100px;
+    color: white;
+    margin-top: -30px;
+}
+.lastimg3{
+    margin-top: -10px;
+    margin-left: 50px;
+    
+}
+.lastpara3{
+    margin-left: 100px;
+    color: white;
+    margin-top: -30px;
+}
+.connect{
+    color: white;
+    font-size: 20px;
+    margin-left: 900px;
+    margin-top: -220px;
+}
+.lastpic{
+    margin-left:850px ;
+}
+
+
+.top{
+    width: 100px;
+    height: 100px;
+    margin-left: 1220px;
+    opacity: 0.5;
+    position: fixed;
+    bottom: 0;
+  right: 0;
+}
+.mar{
+    width:350 ;
+    height:160 ;
+}
+}
+
+
+
